@@ -25,6 +25,7 @@ public class ChatMessage {
 
     private String content;
 
+    @Enumerated(EnumType.STRING)
     private MessageStatus status;
 
     private LocalDateTime timestamp;
